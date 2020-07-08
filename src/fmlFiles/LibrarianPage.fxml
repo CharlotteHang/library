@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXBadge?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<fx:root prefHeight="400.0" prefWidth="640.0" type="VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.ubc.cs.cpsc210.controller.LibrarianPageController">
+  <stylesheets>
+    <URL value="@../../../../../BasicApplication_css/BasicApplication.css" />
+  </stylesheets>
+   <children>
+      <Label fx:id="label" alignment="TOP_LEFT" textFill="#3f5ec3">
+         <VBox.margin>
+            <Insets left="20.0" top="40.0" />
+         </VBox.margin>
+         <font>
+            <Font size="11.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Label>
+      <JFXButton fx:id="returnOrBorrow" onAction="#returnOrBorrowBook" ripplerFill="#bf2525" text="Help a Reader Return, Borrow or Search for a Book">
+         <VBox.margin>
+            <Insets left="130.0" top="120.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="addBook" onAction="#addBook" ripplerFill="#bf2525" text="Add a new Book to the Library">
+         <VBox.margin>
+            <Insets left="130.0" top="20.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="readers" onAction="#viewReaders" ripplerFill="#bf2525" text="View the Reader List">
+         <VBox.margin>
+            <Insets left="130.0" top="20.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="books" onAction="#viewBooks" ripplerFill="#bf2525" text="View the Book List">
+         <VBox.margin>
+            <Insets left="130.0" top="20.0" />
+         </VBox.margin>
+      </JFXButton>
+   </children>
+</fx:root>

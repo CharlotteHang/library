@@ -1,0 +1,72 @@
+{"Books": [
+    {
+        "PublishDate": "20131214",
+        "Description": "",
+        "Borrow": "true",
+        "ISBN": "20000",
+        "Username": "reader1",
+        "Price": "23",
+        "ReturnDay": "2020-09-05-Sat",
+        "Author": "authorb",
+        "Title": "titleb",
+        "Genre": "genre2",
+        "Followers": {},
+        "BorrowDay": "2020-07-07-Tue"
+    },
+    {
+        "PublishDate": "19980615",
+        "Description": "",
+        "Borrow": "false",
+        "ISBN": "30000",
+        "Username": "",
+        "Price": "45",
+        "ReturnDay": "",
+        "Author": "authora",
+        "Title": "titlea",
+        "Genre": "genre3",
+        "Followers": {},
+        "BorrowDay": ""
+    },
+    {
+        "PublishDate": "20180911",
+        "Description": "",
+        "Borrow": "true",
+        "ISBN": "40000",
+        "Username": "reader2",
+        "Price": "34",
+        "ReturnDay": "2020-10-04-Sun",
+        "Author": "authorb",
+        "Title": "titleb",
+        "Genre": "genre4",
+        "Followers": {"follower1": "reader1"},
+        "BorrowDay": "2020-07-07-Tue"
+    },
+    {
+        "PublishDate": "20180911",
+        "Description": "",
+        "Borrow": "true",
+        "ISBN": "10000",
+        "Username": "reader1",
+        "Price": "12",
+        "ReturnDay": "2020-08-26-Wed",
+        "Author": "authora",
+        "Title": "titlea",
+        "Genre": "genre1",
+        "Followers": {"follower1": "reader1"},
+        "BorrowDay": "2020-07-07-Tue"
+    },
+    {
+        "PublishDate": "20180911",
+        "Description": "",
+        "Borrow": "true",
+        "ISBN": "x0000",
+        "Username": "reader1",
+        "Price": "",
+        "ReturnDay": "2020-08-16-Sun",
+        "Author": "authora",
+        "Title": "titlea",
+        "Genre": "genre5",
+        "Followers": {"follower1": "reader2"},
+        "BorrowDay": "2020-07-07-Tue"
+    }
+]}

@@ -1,0 +1,90 @@
+
+
+6. close??
+7. use of delete notifications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. iterator: show all the books and readers (add toString to book and reader)
+2. Observer: Today's news
+update the notification of recent activities and seminars, or who lost sth (very short)
+if a reader click uninterested, then delete this from the reader's notifications and does not show next time.
+The librarians can update the notification to a new one or delete the old one
+
+Also, add a field called notifications (a list of strings) to the reader
+add a stack field called notifications to the librarians
+
+
+Or for simple, if a new book arrives (the Librarian who add the book have the right to decide whether it is
+a very famous book and needs to notify every reader)
+send notification to everyone, if another new book arrives, it substitute
+the last one
+
+
+3. I think the situation that who lost sth or a new book arrives is better, as a new reader to this library
+needs not to know these past notifications
+
+A. we can add subscribe icon, if the reader subscribe to that, we added to the observer list.
+
+addObserver(Observer o) :add Observer to the list of observers for this subject.
+
+deleteObserver(Observer o) :delete Observers from the list of observers .
+
+notifyObservers() : notify all the observers if object has changed.
+
+hasChanged() :return true if object has changed.
+
+setChanged() :This method marks object has changed
+
+clearChanged() :this method will indicate that subject has no changes or all the observers has been notified.

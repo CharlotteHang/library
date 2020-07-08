@@ -1,0 +1,17 @@
+{"Librarians": [
+    {
+        "Username": "librarian3",
+        "PositionInfo": "Librarian",
+        "Password": "password3"
+    },
+    {
+        "Username": "librarian2",
+        "PositionInfo": "Librarian",
+        "Password": "password2"
+    },
+    {
+        "Username": "librarian1",
+        "PositionInfo": "Chief librarian",
+        "Password": "password1"
+    }
+]}

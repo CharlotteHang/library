@@ -1,0 +1,71 @@
+{"Readers": [
+    {
+        "Username": "reader8",
+        "Books": {},
+        "Notifications": {
+            "Notification2": "Effective Java has been returned",
+            "Notification1": "Effective Java has been borrowed and is expected to be returned on 2019-03-28-Thu"
+        },
+        "Password": "password8"
+    },
+    {
+        "Username": "",
+        "Books": {},
+        "Notifications": {},
+        "Password": ""
+    },
+    {
+        "Username": "reader4",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password4"
+    },
+    {
+        "Username": "reader3",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password3"
+    },
+    {
+        "Username": "reader6",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password6"
+    },
+    {
+        "Username": "reader5",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password5"
+    },
+    {
+        "Username": "reader0",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password0"
+    },
+    {
+        "Username": "reader2",
+        "Books": {
+            "book2": "0997046538",
+            "book1": "9076548765"
+        },
+        "Notifications": {
+            "Notification2": "The Pokemon Go Guide has been returned",
+            "Notification1": "Reactive Java Programming has been returned"
+        },
+        "Password": "password2"
+    },
+    {
+        "Username": "reader1",
+        "Books": {"book1": "0672337940"},
+        "Notifications": {
+            "Notification2": "Effective Java has been borrowed and is expected to be returned on 2019-03-27-Wed",
+            "Notification1": "Effective Java has been returned",
+            "Notification4": "The Pokemon Go Guide has been borrowed and is expected to be returned on 2019-04-10-Wed",
+            "Notification3": "Effective Java has been returned",
+            "Notification5": "The Pokemon Go Guide has been returned"
+        },
+        "Password": "password1"
+    }
+]}

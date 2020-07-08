@@ -1,0 +1,39 @@
+{"Readers": [
+    {
+        "Username": "reader4",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password4"
+    },
+    {
+        "Username": "reader3",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password3"
+    },
+    {
+        "Username": "reader5",
+        "Books": {},
+        "Notifications": {},
+        "Password": "password5"
+    },
+    {
+        "Username": "reader2",
+        "Books": {"book1": "40000"},
+        "Notifications": {"Notification1": "titlea has been borrowed and is expected to be returned on 2020-08-16-Sun"},
+        "Password": "password2"
+    },
+    {
+        "Username": "reader1",
+        "Books": {
+            "book2": "20000",
+            "book1": "10000",
+            "book3": "x0000"
+        },
+        "Notifications": {
+            "Notification2": "titleb has been borrowed and is expected to be returned on 2020-10-04-Sun",
+            "Notification1": "titlea has been borrowed and is expected to be returned on 2020-08-26-Wed"
+        },
+        "Password": "password1"
+    }
+]}
